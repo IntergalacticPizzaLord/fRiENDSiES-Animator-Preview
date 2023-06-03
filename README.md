@@ -39,3 +39,8 @@ This project is maintained by the Friendsies NFT community. If you encounter any
 ## Disclaimer
 
 This tool is not associated with FriendsWithYou, the creators of Friendsies NFT. It is a community-driven project intended to enhance the user experience of Friendsies owners. The use of this tool is at your own risk.
+
+## License
+
+This project is licensed under the terms of the MIT License. See the [LICENSE](https://github.com/IntergalacticPizzaLord/friendsies_animator/blob/a2f4c964bb3b7b137dcd33ca5b4f8614356d22df/LICENSE) file for details.
+
