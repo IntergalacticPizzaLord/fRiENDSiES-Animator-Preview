@@ -26,7 +26,11 @@ Friendsies Animator is a community-developed Blender add-on that allows users to
 
 1. Load your Friendsies NFT GLB file into Blender.
 
-2. Use the tools provided by the Friendsies Animator add-on to animate your NFT.
+2. Open the Friendsies Animator panel.
+
+3. Follow the prompts to animate your Friendsies NFT.
+
+4. When finished, you can render and export your animation.
 
 ## Support
 
