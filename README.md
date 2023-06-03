@@ -10,7 +10,7 @@ Friendsies Animator is a community-developed Blender add-on that allows users to
 
 ## Installation
 
-1. Download the zip file named "friendsies_animator.zip" from this repository. Alternatively, you can download the project and combine all the files in the same folder into a file called "friendsies_animator.zip".
+1. Download the zip file named "friendsies_animator.zip" from this repositoryhttps://github.com/IntergalacticPizzaLord/friendsies_animator/blob/86790fae6f8faa863bcef72c511ea4fcc7bafe92/friendsies_animator.zip. Alternatively, you can download the project and combine all the files in the same folder into a file called "friendsies_animator.zip".
 
 2. Open Blender.
 
