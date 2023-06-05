@@ -67,6 +67,7 @@ class SavePoseDataOperator(bpy.types.Operator, ExportHelper):
             json.dump(pose_data, f, indent=4)
 
         return {'FINISHED'}
+    
 
 class LoadPoseDataOperator(bpy.types.Operator, ImportHelper):
     bl_idname = "friendsies.load_pose_data"
