@@ -13,14 +13,14 @@ from . import panels
 from . import glb_import
 
 def register():
+    glb_import.register()
     operators.register()
     panels.register()
-    glb_import.register()
 
 def unregister():
+    glb_import.unregister()
     operators.unregister()
     panels.unregister()
-    glb_import.unregister()
 
 if __name__ == "__main__":
     register()
