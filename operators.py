@@ -39,6 +39,10 @@ class RigCharacterOperator(bpy.types.Operator):
 
         bpy.ops.object.mode_set(mode='OBJECT')
 
+        for obj in bpy.data.objects:
+            if obj.type not in {'MESH', 'ARMATURE', 'CAMERA', 'LIGHT'} or obj.data is None:
+                bpy.data.objects.remove(obj, do_unlink=True)
+
         return {'FINISHED'}
     
     def invoke(self, context, event):
@@ -67,7 +71,6 @@ class SavePoseDataOperator(bpy.types.Operator, ExportHelper):
             json.dump(pose_data, f, indent=4)
 
         return {'FINISHED'}
-    
 
 class LoadPoseDataOperator(bpy.types.Operator, ImportHelper):
     bl_idname = "friendsies.load_pose_data"
